@@ -1,7 +1,4 @@
-import styles from './css/styles.css';
-import { LitElement, html } from '@polymer/lit-element';
-import Header from './header';
-
+import styles from './css/styles.css'; 
 export default ({ name, staticPath }) =>
   `<div class=${styles.header}>
     HEADER 
